@@ -20,83 +20,38 @@
     />
     <title>Landing | Tailwind Starter Kit by Creative Tim</title>
   </head>
-  <body class="text-gray-800 antialiased">
+  <body class="text-black antialiased">
     <nav
       class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg"
     >
-      <div
-        class="container px-4 mx-auto flex flex-wrap items-center justify-between"
-      >
-        <div
-          class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
-        >
-          <a
-            class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
-            href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-            >Tailwind Starter Kit</a
-          ><button
-            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-            type="button"
-            onclick="toggleNavbar('example-collapse-navbar')"
-          >
+      <div class="container px-4 mx-auto flex flex-wrap items-center justify-between" >
+        <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start" >
+          <a class="hidden text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white" href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation">Tailwind Starter Kit</a>
+          <button class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" onclick="toggleNavbar('example-collapse-navbar')">
             <i class="text-white fas fa-bars"></i>
           </button>
         </div>
-        <div
-          class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
-          id="example-collapse-navbar"
-        >
-          <ul class="flex flex-col lg:flex-row list-none mr-auto">
-            <li class="flex items-center">
-              <a
-                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/landing"
-                ><i
-                  class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"
-                ></i>
-                Docs</a
-              >
-            </li>
-          </ul>
+        <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden" id="example-collapse-navbar">
           <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
             <li class="flex items-center">
-              <a
-                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="#pablo"
-                ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg "
-                ></i
-                ><span class="lg:hidden inline-block ml-2">Share</span></a
-              >
+              <a class="lg:text-black lg:hover:text-black text-black px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#pablo">
+                <span class="inline-block ml-2">Metodologia</span>
+              </a>
             </li>
             <li class="flex items-center">
-              <a
-                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="#pablo"
-                ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg "
-                ></i
-                ><span class="lg:hidden inline-block ml-2">Tweet</span></a
-              >
+              <a class="lg:text-black lg:hover:text-black text-black px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#pablo">
+                <span class="inline-block ml-2">Projetos</span>
+              </a>
             </li>
             <li class="flex items-center">
-              <a
-                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="#pablo"
-                ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg "
-                ></i
-                ><span class="lg:hidden inline-block ml-2">Star</span></a
-              >
+              <a class="lg:text-black lg:hover:text-black text-black px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#pablo">
+                <span class="inline-block ml-2">Serviços</span>
+              </a>
             </li>
             <li class="flex items-center">
-              <button
-                class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
-                type="button"
-                style="transition: all 0.15s ease 0s;"
-              >
-                <i class="fas fa-arrow-alt-circle-down"></i> Download
-              </button>
+              <a class="lg:text-black lg:hover:text-black text-black px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#pablo">
+                <span class="inline-block ml-2">Contato</span>
+              </a>
             </li>
           </ul>
         </div>
@@ -104,30 +59,28 @@
     </nav>
     <main>
       <div
-        class="relative pt-16 pb-32 flex content-center items-center justify-center"
-        style="min-height: 75vh;"
-      >
-        <div
-          class="absolute top-0 w-full h-full bg-center bg-cover"
-          style='background-image: url("https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1267&amp;q=80");'
-        >
-          <span
-            id="blackOverlay"
-            class="w-full h-full absolute opacity-75 bg-black"
-          ></span>
-        </div>
+        class="relative pt-16 pb-32 flex content-center items-center"
+        style="min-height: 75vh;">
         <div class="container relative mx-auto">
           <div class="items-center flex flex-wrap">
-            <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-              <div class="pr-12">
-                <h1 class="text-white font-semibold text-5xl">
-                  Your story starts with us.
+            <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto">
+              <div class="">
+                <h1 class="text-black font-semibold text-5xl">
+                  <svg height="8" width="240" style="position: relative;">
+                    <line x1="0" y1="0" x2="240" y2="0" style="stroke:rgb(255, 255, 255);stroke-width:4" />
+                  </svg>
+                  <span class="bg-black pt-6 pr-12 pb-2 pl-4 text-white">UXperts</span>
                 </h1>
-                <p class="mt-4 text-lg text-gray-300">
-                  This is a simple example of a Landing Page you can build using
-                  Tailwind Starter Kit. It features multiple CSS components
-                  based on the Tailwindcss design system.
+                <p class="mt-6 ml-4 text-2xl text-black">
+                  O caminho para a melhor solução em
                 </p>
+                <p class="font-bold mt-2 ml-4 text-2xl text-black">
+                  User Experience Design
+                </p>
+                <button class="px-8 py-3 mt-6 ml-4 bg-blue-victoria bg-blue-400 text-white font-semibold rounded-full uppercase">
+                  Venha conhecer
+                  <i class="fas fa-arrow-right ml-2"></i>
+                </button>
               </div>
             </div>
           </div>
@@ -236,7 +189,7 @@
               </p>
               <a
                 href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-                class="font-bold text-gray-800 mt-8"
+                class="font-bold text-black mt-8"
                 >Check Tailwind Starter Kit!</a
               >
             </div>
@@ -672,7 +625,7 @@
           y="0"
         >
           <polygon
-            class="text-gray-300 fill-current"
+            class="text-black fill-current"
             points="2560 0 2560 100 0 100"
           ></polygon>
         </svg>

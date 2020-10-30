@@ -9,6 +9,16 @@ module.exports = {
   important: false,
   separator: ':',
   theme: {
+    extend: {
+      colors: {
+        'blue-Victoria': '#00A0E2',
+        'green-Everline': '#39A142',
+        'orange-Fukuoka': '#E75B1B',
+        'purple-Singapura': '#6F3B90',
+        'red-Marunouchi': '#E2021E',
+        'yellow-Tehran': '#FCB228',
+      }
+    },
     screens: {
       sm: '640px',
       md: '768px',
